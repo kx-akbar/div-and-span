@@ -1,0 +1,46 @@
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title{
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box{
+  background-color: red;
+  color: black;
+  padding: 0 5px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.box a{
+  display: inline-block;
+  color: purple;
+  margin: 20px 3px;
+}
+
+.box ~ p{
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+span{
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.img2{
+  width: 550px;
+  height: 360px;
+  margin: 20px 50px;
+  border: 4px double black;
+}
+
+.box-1{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
